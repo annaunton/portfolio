@@ -56,7 +56,7 @@ h2 {
 }
 .project {
   width: 300px;
-  height: 500px;
+  height: 770px;
   box-shadow: 2px 2px 20px #000;
   margin: 0 auto;
   border-radius: 10px;
@@ -95,16 +95,11 @@ i {
   align-items: center;
   margin: 10px;
   background: rgba(255, 255, 255, 0.3);
-
   color: #fff;
-
   font-weight: bold;
   font-size: 20px;
-
 }
-
 .cards div:hover {
-
   transform: scale(1.1);
 }
 /*===CONTACT===*/
