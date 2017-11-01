@@ -66,6 +66,7 @@ h2 {
   box-shadow: 2px 2px 20px #F2BA42;
 }
 .project img {
+  width: 300px;
   border-radius: 10px 10px 0 0;
 }
 .project a {
