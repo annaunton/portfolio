@@ -1,0 +1,113 @@
+﻿@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800");
+
+/*===BODY===*/
+body {
+  background: #20336E;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+/*===CONTAINER===*/
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+section .container {
+  margin: 50px auto;
+  text-align: center;
+}
+
+/*===HEADER===*/
+header {
+  background: #072A4E;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+}
+header nav ul li {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+header nav ul li:hover a {
+  color: #F2BA42;
+}
+
+/*===PROJECT===*/
+h2 {
+  border-bottom: 1px solid #fff;
+  width: 300px;
+  padding: 10px;
+  margin: 30px auto;
+}
+.project {
+  width: 300px;
+  height: 500px;
+  box-shadow: 2px 2px 20px #000;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #072A4E;
+}
+.project:hover {
+  box-shadow: 2px 2px 20px #F2BA42;
+}
+.project img {
+  border-radius: 10px 10px 0 0;
+}
+.project a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #F2BA42;
+  margin: 0 10px;
+}
+.project a:hover {
+  color: #fff;
+}
+i {
+   color:#F2BA42;
+}
+/*===SKILLS===*/
+.cards {
+  display: flex;
+
+	flex-wrap: wrap;
+  justify-content: center;
+}
+.cards div {
+  width: 150px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.3);
+
+  color: #fff;
+
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.cards div:hover {
+
+  transform: scale(1.1);
+}
+/*===CONTACT===*/
+#contact i {
+  color:#F2BA42;
+}
