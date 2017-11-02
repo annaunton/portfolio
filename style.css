@@ -74,7 +74,9 @@ h2 {
   font-weight: bold;
   color: #F2BA42;
   margin: 0 10px;
+  text-shadow: 2px 2px 5px #000;
 }
+
 .project a:hover {
   color: #fff;
 }
