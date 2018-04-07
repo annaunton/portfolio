@@ -67,7 +67,9 @@ h2 {
 }
 .project img {
   width: 300px;
+  display: block;
   border-radius: 10px 10px 0 0;
+  margin-top:-21px;
 }
 .project a {
   text-decoration: none;
