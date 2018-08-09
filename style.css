@@ -67,6 +67,7 @@ h2 {
 }
 #game{
   height: 370px;
+  border: 1px solid red;
 }
 .project:hover {
   box-shadow: 2px 2px 20px #F2BA42;
