@@ -58,18 +58,21 @@ h2 {
   margin: 30px auto;
 }
 .project {
-  width: 300px;
-  height: 770px;
+  width: 400px;
+  height: 1000px;
   box-shadow: 2px 2px 20px #000;
-  margin: 0 auto;
+  margin: 30px auto;
   border-radius: 10px;
   background: #072A4E;
+}
+.game{
+  height: 370px;
 }
 .project:hover {
   box-shadow: 2px 2px 20px #F2BA42;
 }
 .project img {
-  width: 300px;
+  width: 400px;
   display: block;
   border-radius: 10px 10px 0 0;
   margin-top:-21px;
