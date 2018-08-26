@@ -64,6 +64,7 @@ h2 {
   margin: 40px auto;
   border-radius: 10px;
   background: #072A4E;
+  padding: 10px;
 }
 .game{
   max-height: 370px;
@@ -73,7 +74,7 @@ h2 {
   transform: scale(1.05);
 }
 .project img {
-  max-width: 400px;
+  max-width: 100%;
   display: block;
   border-radius: 10px 10px 0 0;
   margin-top:-21px;
