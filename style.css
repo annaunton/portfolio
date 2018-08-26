@@ -13,7 +13,7 @@ p {
 
 /*===CONTAINER===*/
 .container {
-  width: 100%;
+  max-width: 90%;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -58,15 +58,15 @@ h2 {
   margin: 30px auto;
 }
 .project {
-  width: 400px;
-  height: 1000px;
+  max-width: 400px;
+  max-height: 1000px;
   box-shadow: 2px 2px 20px #000;
   margin: 40px auto;
   border-radius: 10px;
   background: #072A4E;
 }
 .game{
-  height: 370px;
+  max-height: 370px;
 }
 .project:hover {
   box-shadow: 2px 2px 20px #F2BA42;
