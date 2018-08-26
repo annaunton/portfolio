@@ -61,7 +61,7 @@ h2 {
   width: 400px;
   height: 1000px;
   box-shadow: 2px 2px 20px #000;
-  margin: 30px auto;
+  margin: 40px auto;
   border-radius: 10px;
   background: #072A4E;
 }
@@ -70,6 +70,7 @@ h2 {
 }
 .project:hover {
   box-shadow: 2px 2px 20px #F2BA42;
+  transform: scale(1.05);
 }
 .project img {
   width: 400px;
